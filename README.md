@@ -1,20 +1,16 @@
-AWS Flask Deployment 
+ AWS EC2 Flask Skills Tracker 
 
-A simple **Flask web application deployed on AWS EC2** to understand real-world cloud deployment.
+Production-level Flask app deployed on **AWS EC2 (Ubuntu 24.04)** using **Gunicorn**.
 
+Live: http://13.232.70.62:5000
 
- Tech Stack
-- Python
-- Flask
-- AWS EC2
-- Git & GitHub
+ Tech
+Python • Flask • Gunicorn • AWS EC2 • Linux
 
- Project Files
-- app.py– Flask application
-- requirements.txt – Python dependencies
-- screenshot.png– Deployment proof
+ Highlights
+- EC2 + SSH setup
+- Python venv (PEP 668 issue fixed)
+- Gunicorn WSGI server
+- Security Group TCP 5000
 
-Run Locally
- bash
- pip install -r requirements.txt
- python app.py
+https://github.com/krishoo2005
